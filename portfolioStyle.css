@@ -7,7 +7,7 @@ body{
     float: left;
     color: pink;
     text-shadow: 3px 0px 1px rgb(113, 19, 74);
-    font-family: monospace;
+    font-family: monospace, -apple-system;
     font-size: xx-large;
 }
 
@@ -26,7 +26,7 @@ body{
     color: pink;
     text-shadow: 6px 0px 3px rgb(163, 27, 106);
     font-size: 57px;
-    font-family: monospace; 
+    font-family: monospace, -apple-system; 
 }
 
 b{
