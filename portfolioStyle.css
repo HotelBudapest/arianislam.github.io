@@ -7,7 +7,7 @@ body{
     float: left;
     color: pink;
     text-shadow: 3px 0px 1px rgb(113, 19, 74);
-    font-family: consolas;
+    font-family: monospace;
     font-size: xx-large;
 }
 
@@ -38,15 +38,8 @@ b{
     float: right; 
 }
 
-li{
-    font-family: 'Courier New', Courier, monospace;
-    padding-right: 75px;
-    display: inline;
-    color: rgb(239, 160, 160);
-}
-
 #navcont{
-    font-family: consolas;
+    font-family: monospace;
     font-size: 140%;
     text-decoration: none;
     display: inline;
