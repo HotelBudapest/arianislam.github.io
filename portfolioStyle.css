@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+}
+
+#h{
+    text-decoration: none;
+    float: left;
+    color: pink;
+    text-shadow: 3px 0px 1px rgb(113, 19, 74);
+    font-family: consolas;
+    font-size: xx-large;
+}
+
+#h:hover{
+    color: rgb(249, 233, 53);
+    cursor: pointer;
+}
+
+#navhome:hover{
+    color: rgb(249, 233, 53);
+    cursor: pointer;
+}
+
+#bel{
+    padding-top: 400px;
+    color: pink;
+    text-shadow: 6px 0px 3px rgb(163, 27, 106);
+    font-size: 57px;
+    font-family: monospace; 
+}
+
+b{
+    color: rgb(249, 233, 53);
+    text-shadow: 4px 0px 0px rgb(174, 139, 0);
+}
+
+#homeimg{
+    float: right; 
+}
+
+li{
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 75px;
+    display: inline;
+    color: rgb(239, 160, 160);
+}
+
+#navcont{
+    font-family: consolas;
+    font-size: 140%;
+    text-decoration: none;
+    display: inline;
+    color: rgb(239, 160, 160);
+    padding-left: 5%;
+}
+
+#navhome{
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(239, 160, 160);
+}
+#navcont:hover{
+    color: rgb(249, 233, 53);
+    text-shadow: 1px 0px 10px rgb(251, 207, 31);
+    cursor: pointer;
+}
+ul{
+    animation: mySlide;
+    animation-duration: 3s;
+}
+
+li:hover{
+    color: rgb(249, 233, 53);
+    text-shadow: 1px 0px 10px rgb(251, 207, 31);
+    cursor: pointer;
+}
+p{
+    animation: mySlide;
+    animation-duration: 2s;
+}
+@keyframes mySlide{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+
+#soc1:hover{
+    padding-left: 5px;
+    border-left: 2px dashed rgb(232, 192, 91);
+
+    animation: mySlide;
+    animation-duration: 0.7s;
+}
+
+
+#resumeTable{
+    color: white;
+    text-align: left;
+    font-size: 180%;
+    font-family: monospace;
+    animation: mySlide;
+    animation-duration: 2s;
+
+}
+
+#soc2{
+    display: none;
+}
+
+#profer{
+    margin-bottom: 0;
+}
+
+@media all and (min-width: 500px){
+    #tableMobile{
+        display: none;
+    }
+    #altimg{
+        display: none;
+    }
+}
+
+@media all and (max-width: 500px){
+    #tableR{
+        display: none;
+    }
+    #tableMobile{
+        display: block;
+    }
+    #profer{
+        width: 40%;
+    }
+    #homeimg{
+        display: none;
+    }
+    #bel{
+        padding-top: 0;
+        font-size: 230%;
+        text-align: center;
+        text-shadow: 3px 0px 3px rgb(163, 27, 106);
+    }
+    b{
+        text-shadow: 3px 0px 0px rgb(163, 27, 106);
+    }
+    #soc1{
+        display: none;
+    }
+    #soc2{
+        padding: 7%;
+        display: inline;
+    }
+}
