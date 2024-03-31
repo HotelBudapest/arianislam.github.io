@@ -22,10 +22,10 @@ body{
 }
 
 #bel{
-    padding-top: 400px;
+    padding-top: 20%;
     color: pink;
     text-shadow: 6px 0px 3px rgb(163, 27, 106);
-    font-size: 57px;
+    font-size: 250%;
     font-family: monospace, -apple-system; 
 }
 
@@ -35,7 +35,9 @@ b{
 }
 
 #homeimg{
-    float: right; 
+    height: 38%;
+    width: 38%;
+    float: right;
 }
 
 #navcont{
@@ -90,11 +92,15 @@ p{
 #resumeTable{
     color: white;
     text-align: left;
-    font-size: 180%;
+    font-size: 130%;
     font-family: monospace;
     animation: mySlide;
     animation-duration: 2s;
 
+}
+
+.bars{
+    width: 100%;
 }
 
 #soc2{
@@ -102,6 +108,8 @@ p{
 }
 
 #profer{
+    height: 50%;
+    width: 50%;
     margin-bottom: 0;
 }
 
@@ -112,6 +120,10 @@ p{
     #altimg{
         display: none;
     }
+}
+
+.tableContent1{
+    font-size: 140%;
 }
 
 @media all and (max-width: 500px){
