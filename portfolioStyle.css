@@ -38,8 +38,7 @@ b{
 }
 
 #homeimg {
-    height: 70%;
-    width: 45%;
+    width: 40%;
     position: fixed; /* Keep the image fixed in position */
     bottom: 0; /* Position the image at the bottom */
     right: 0; /* Position the image to the right */
@@ -155,13 +154,12 @@ p{
     }
     #altimg, #bel {
         display: block;
-        position: relative; /* Ensure the text stays below the image */
+        position: relative;
     }
-
     #bel {
         text-align: center;
-        padding-top: 0;     /* Remove padding for mobile */
-        font-size: 150%;    /* Adjust font size to fit mobile screens better */
+        padding-top: 0;
+        font-size: 150%;
         left: 0%;
     }
     b{
