@@ -153,11 +153,16 @@ p{
     #homeimg{
         display: none;
     }
-    #bel{
-        padding-top: 0;
-        font-size: 180%;
+    #altimg, #bel {
+        display: block;
+        position: relative; /* Ensure the text stays below the image */
+    }
+
+    #bel {
         text-align: center;
-        text-shadow: 3px 0px 3px rgb(163, 27, 106);
+        padding-top: 0;     /* Remove padding for mobile */
+        font-size: 150%;    /* Adjust font size to fit mobile screens better */
+        left: 0%;
     }
     b{
         text-shadow: 3px 0px 0px rgb(163, 27, 106);
